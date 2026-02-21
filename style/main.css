@@ -124,11 +124,11 @@ body {
 
 .photo-wrapper .hat {
   position: absolute;
-  width: 90px;
+  width: 95px;
 
-  top: -40px;      /* adjust up/down */
-  left: 55%;       /* adjust left/right */
-  transform: translateX(-50%) rotate(-18deg);
+  top: -75px;      /* adjust up/down */
+  left: 60%;       /* adjust left/right */
+  transform: translateX(-50%) rotate(-20deg);
 
   z-index: 2;
 }
