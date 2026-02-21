@@ -112,12 +112,24 @@ body {
   position: relative;
 }
 
-.six .hat {
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-wrapper .girl {
+  height: 350px;
+  display: block;
+}
+
+.photo-wrapper .hat {
   position: absolute;
-  top: -60px;              /* move up/down */
-  left: 50%;               /* center horizontally */
-  transform: translateX(-50%) rotate(-15deg); 
-  width: 100px;            /* adjust size */
+  width: 90px;
+
+  top: -40px;      /* adjust up/down */
+  left: 55%;       /* adjust left/right */
+  transform: translateX(-50%) rotate(-18deg);
+
   z-index: 2;
 }
 
