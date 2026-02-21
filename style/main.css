@@ -122,15 +122,11 @@ body {
   display: block;
 }
 
-.photo-wrapper .hat {
+.six .hat {
+  left: 41.5%;
   position: absolute;
-  width: 95px;
-
-  top: -70px;          /* IMPORTANT: negative value */
-  left: 52%;
-
-  transform: translateX(-50%) rotate(-20deg);
-  z-index: 3;
+  top: -35%;
+  width: 80px;
 }
 
 .baloons img {
