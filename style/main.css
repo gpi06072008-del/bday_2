@@ -124,13 +124,13 @@ body {
 
 .photo-wrapper .hat {
   position: absolute;
-  width: 95px;
+  width: 90px;
 
-  top: -75px;      /* adjust up/down */
-  left: 60%;       /* adjust left/right */
-  transform: translateX(-50%) rotate(-20deg);
+  top:  5px;      /* adjust up/down */
+  left: 45%;       /* adjust left/right */
+  transform: rotate(-20deg);
 
-  z-index: 2;
+  z-index: 3;
 }
 
 .baloons img {
