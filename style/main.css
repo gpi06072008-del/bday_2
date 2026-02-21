@@ -108,12 +108,17 @@ body {
   /* height: auto; */
 }
 
+.six {
+  position: relative;
+}
+
 .six .hat {
-  left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
-  width: 80px;
+  top: -60px;              /* move up/down */
+  left: 50%;               /* center horizontally */
+  transform: translateX(-50%) rotate(-15deg); 
+  width: 100px;            /* adjust size */
+  z-index: 2;
 }
 
 .baloons img {
